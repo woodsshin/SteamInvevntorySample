@@ -20,7 +20,7 @@ Fully integrated Steam Inventory Service except for trading, promotion. It comes
 TradeItem, Promotion
 
 # Engine Compatibility
-Sample Project is based on 4.16. Plugin supports 4.11 - 4.17.
+Sample Project is based on 4.16. Plugin supports 4.11 - 5.4.
 
 # Generate Item
 ## ![alt text](https://github.com/woodsshin/SteamInvevntorySample/blob/master/ScreenShot/SteamInventoryPlugin_screenshot_01.png)
