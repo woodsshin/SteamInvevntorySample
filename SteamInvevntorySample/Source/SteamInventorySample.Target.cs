@@ -10,6 +10,9 @@ public class SteamInventorySampleTarget : TargetRules
 		Type = TargetType.Game;
         bUsesSteam = true;
 
+        bOverrideBuildEnvironment = true;
+        DefaultBuildSettings = BuildSettingsVersion.Latest;
+
         ExtraModuleNames.AddRange( new string[] { "SteamInventorySample" } );
 	}
 }

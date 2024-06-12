@@ -8,7 +8,9 @@ public class SteamInventorySampleEditorTarget : TargetRules
 	public SteamInventorySampleEditorTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
-        bUsesSteam = true;
+
+        bOverrideBuildEnvironment = true;
+        DefaultBuildSettings = BuildSettingsVersion.Latest;
 
         ExtraModuleNames.AddRange( new string[] { "SteamInventorySample" } );
 	}
