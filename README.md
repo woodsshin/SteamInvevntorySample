@@ -1,8 +1,6 @@
 # Steam Invevntory Sample
 Fully integrated Steam Inventory Service except for trading, promotion. It comes with SteamItem Converter which generates item definitions in json. Document is included in plugin.
 
-# available 4.11 - 4.17 on Gunroad(http://gum.co/uQppD)
-
 # Support Steam Inventory Service APIs
 #### All these functions are exposed on blueprint.
 #### ConsumeItem : https://partner.steamgames.com/doc/api/ISteamInventory#ConsumeItem
@@ -20,7 +18,7 @@ Fully integrated Steam Inventory Service except for trading, promotion. It comes
 TradeItem, Promotion
 
 # Engine Compatibility
-Sample Project is based on 4.16. Plugin supports 4.11 - 5.4.
+Plugin supports 4.11 - 5.4.
 
 # Generate Item
 ## ![alt text](https://github.com/woodsshin/SteamInvevntorySample/blob/master/ScreenShot/SteamInventoryPlugin_screenshot_01.png)
@@ -40,8 +38,7 @@ manage steam item and generate definitions in json.
 ## ![alt text](https://github.com/woodsshin/SteamInvevntorySample/blob/master/ScreenShot/itemtool.png)
 
 # Engine Compatibility
-#### Engine Version : 4.11 - 4.17
-#### Sample project Version : 4.16 
+#### Engine Version : 4.11 - 5.4 
 #### Intended Platform : Window, Mac
 #### Platforms Tested : Window, Mac
  
